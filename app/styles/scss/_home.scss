@@ -2,11 +2,11 @@
     box-sizing: border-box;
     color: rgb(126, 135, 143);
     display: block;
-    height: 460px;
+    height: 360px;
     max-width: 100%;
     text-align: center;
     vertical-align: middle;
-    width: 460px;
+    width: 360px;
     perspective-origin: 230px 230px;
     transform-origin: 230px 230px;
     border: 10px solid rgb(239, 240, 244);
@@ -15,4 +15,17 @@
     margin: auto;
     outline: rgb(126, 135, 143) none 0px;
 }
+
+.main-info {
+  text-align: center;
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Remove the bottom border */
+  .main-info {
+    border-bottom: 0;
+  }
 
