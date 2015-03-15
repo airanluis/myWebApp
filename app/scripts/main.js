@@ -4,8 +4,8 @@ $(document).ready(function(){
     var windscroll = $(window).scrollTop();
      if (windscroll >= navHeight) {
         $('#sticky_nav').addClass('goToTop')
-        $('section').each(function(i) {
-            if ($(this).position().top <= windscroll - navHeight) {
+        $('.wrapper').each(function(i) {
+            if ($(this).position().top <= windscroll+80) {
                 $('nav a.active').removeClass('active');
                 $('nav a').eq(i).addClass('active');
             }

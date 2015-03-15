@@ -1,13 +1,10 @@
-$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
-// bower:scss
-@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
-// endbower
-
+@import "scss/variables";
 @import "scss/home";
 @import "scss/overlay";
 @import "scss/social";
 @import "scss/navigation";
 @import "scss/about";
+@import "scss/education";
 
 .browsehappy {
   margin: 0.2em 0;
@@ -19,6 +16,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 /* Space out content a bit */
 body {
   font-size: 18px;
+  font-family: Raleway, Helvetica, Arial, sans-serif;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */

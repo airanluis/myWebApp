@@ -2,7 +2,7 @@
     background-position: 50% -300px;
     box-sizing: border-box;
     color: rgb(126, 135, 143);
-    height: 800px;
+    height: 400px;
     width: 100%;
     perspective-origin: 674.5px 450px;
     transform-origin: 674.5px 450px;
@@ -17,7 +17,7 @@
     box-sizing: border-box;
     color: rgb(126, 135, 143);
     height: 100%;
-    min-height: 800px;
+    min-height: 400px;
     position: relative;
     width: 100%;
     perspective-origin: 674.5px 450px;
@@ -53,7 +53,8 @@
     perspective-origin: 550px 47.5px;
     transform-origin: 550px 47.5px;
     border: 0px none rgb(255, 255, 255);
-    font: normal normal normal 60px/60px Raleway, Helvetica, Arial, sans-serif;
+    font-family: Raleway, Helvetica, Arial, sans-serif;
+    font-size: 60px;
     margin: 20px 0px 10px;
     outline: rgb(255, 255, 255) none 0px;
     padding: 0px 0px 5px;
@@ -68,7 +69,7 @@
     perspective-origin: 550px 19px;
     transform-origin: 550px 19px;
     border: 0px none rgb(255, 255, 255);
-    font: normal normal 800 normal 80px/80px Raleway, Helvetica, Arial, sans-serif;
+    font-family: Raleway, Helvetica, Arial, sans-serif;
     margin: 20px 0px 10px;
     outline: rgb(255, 255, 255) none 0px;
     padding: 0px 0px 5px;
@@ -83,7 +84,7 @@
     perspective-origin: 550px 19px;
     transform-origin: 550px 19px;
     border: 0px none rgb(255, 255, 255);
-    font: normal normal 500 normal 38px/38px Raleway, Helvetica, Arial, sans-serif;
+    font-family: Raleway, Helvetica, Arial, sans-serif;
     margin: 40px 0px 10px;
     outline: rgb(204, 204, 204) none 0px;
     padding: 0px 0px 5px;

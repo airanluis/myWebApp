@@ -8,6 +8,7 @@
     border: 0px none rgb(126, 135, 143);
     font: normal normal 300 normal 16px/22.8571434020996px Raleway, Helvetica, Arial, sans-serif;
     outline: rgb(126, 135, 143) none 0px;
+    background-color: #21262b;
 }
 
 #main_menu_nav {
@@ -89,7 +90,6 @@
 
 .nav_link {
     box-sizing: border-box;
-    color: rgb(182,155,128) !important;
     font-size: 20px !important;
     font-weight: 600;
     display: block;
@@ -107,13 +107,17 @@
     outline: rgb(245, 79, 54) none 0px;
     padding: 15px 15px 28px;
     margin: 10px 0px 0px;
+    color: rgb(56,114,112);
 }
 
 .nav_link:focus {
     /*background-color: rgb(173,214,244);*/
-    color: rgb(121,154,221) !important;
-    font-weight: 900;
     outline: 0;
+}
+
+.active {
+    font-weight: 900;
+    border-bottom: 2px solid rgb(56,114,112);
 }
 .nav_link:hover {
     color: rgb(128,121,155) !important;
@@ -123,13 +127,13 @@
 .goToTop {
   position: fixed !important;
   top: 0 !important;
-  height: 800px !important;
   z-index: 10 !important;
+  height: 80px !important;
+  background: inherit;
 }
 
 .wrapper {
     width:100%;
-    padding-top:80px !important;
     z-index:5 !important;
     overflow:auto;
 }

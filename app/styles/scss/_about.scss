@@ -1,69 +1,43 @@
 #section_about {
     box-sizing: border-box;
     color: rgb(126, 135, 143);
-    height: 1038px;
+    height: $section-height;
     position: relative;
     width: 100%;
     perspective-origin: 952.5px 519px;
     transform-origin: 952.5px 519px;
     border: 0px none rgb(126, 135, 143);
-    font: normal normal 300 normal 16px/22.8571434020996px Raleway, Helvetica, Arial, sans-serif;
+    font-family: normal normal 300 normal 16px/22.8571434020996px Raleway, Helvetica, Arial, sans-serif;
     outline: rgb(126, 135, 143) none 0px;
     padding: 100px 0px;
+    background-color: white;
 }/*#SECTION_1*/
 
 #DIV_2 {
     box-sizing: border-box;
     color: rgb(126, 135, 143);
-    height: 738px;
-    width: 1170px;
+    height: auto;
+    width: 100%;
     perspective-origin: 585px 369px;
     transform-origin: 585px 369px;
     border: 0px none rgb(126, 135, 143);
     font: normal normal 300 normal 16px/22.8571434020996px Raleway, Helvetica, Arial, sans-serif;
-    margin: 0px 367.5px;
+    margin: auto;
     outline: rgb(126, 135, 143) none 0px;
     padding: 0px 15px;
 }/*#DIV_2*/
-
-#DIV_2:after {
-    box-sizing: border-box;
-    clear: both;
-    color: rgb(126, 135, 143);
-    display: table;
-    width: 1px;
-    perspective-origin: 0.5px 0px;
-    transform-origin: 0.5px 0px;
-    content: ' ';
-    border: 0px none rgb(126, 135, 143);
-    font: normal normal 300 normal 16px/22.8571434020996px Raleway, Helvetica, Arial, sans-serif;
-    outline: rgb(126, 135, 143) none 0px;
-}/*#DIV_2:after*/
-
-#DIV_2:before {
-    box-sizing: border-box;
-    color: rgb(126, 135, 143);
-    display: table;
-    width: 1px;
-    perspective-origin: 0.5px 0px;
-    transform-origin: 0.5px 0px;
-    content: ' ';
-    border: 0px none rgb(126, 135, 143);
-    font: normal normal 300 normal 16px/22.8571434020996px Raleway, Helvetica, Arial, sans-serif;
-    outline: rgb(126, 135, 143) none 0px;
-}/*#DIV_2:before*/
 
 #DIV_3 {
     box-sizing: border-box;
     color: rgb(126, 135, 143);
     height: 289px;
     text-align: center;
-    width: 1140px;
+    width: 80%;
+    margin: auto;
     perspective-origin: 570px 144.5px;
     transform-origin: 570px 144.5px;
     border: 0px none rgb(126, 135, 143);
     font: normal normal 300 normal 16px/22.8571434020996px Raleway, Helvetica, Arial, sans-serif;
-    margin: 0px 0px 50px;
     outline: rgb(126, 135, 143) none 0px;
 }/*#DIV_3*/
 
@@ -78,7 +52,8 @@
     perspective-origin: 570px 32.5px;
     transform-origin: 570px 32.5px;
     border: 0px none rgb(44, 61, 79);
-    font: normal normal 800 normal 60px/60px Raleway, Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 45px;
     margin: 20px 0px 10px;
     outline: rgb(44, 61, 79) none 0px;
     padding: 0px 0px 5px;
@@ -128,41 +103,15 @@
     box-sizing: border-box;
     color: rgb(126, 135, 143);
     height: 379px;
-    width: 1170px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
     perspective-origin: 585px 189.5px;
     transform-origin: 585px 189.5px;
     border: 0px none rgb(126, 135, 143);
     font: normal normal 300 normal 16px/22.8571434020996px Raleway, Helvetica, Arial, sans-serif;
-    margin: 0px -15px;
     outline: rgb(126, 135, 143) none 0px;
 }/*#DIV_9*/
-
-#DIV_9:after {
-    box-sizing: border-box;
-    clear: both;
-    color: rgb(126, 135, 143);
-    display: table;
-    width: 1px;
-    perspective-origin: 0.5px 0px;
-    transform-origin: 0.5px 0px;
-    content: ' ';
-    border: 0px none rgb(126, 135, 143);
-    font: normal normal 300 normal 16px/22.8571434020996px Raleway, Helvetica, Arial, sans-serif;
-    outline: rgb(126, 135, 143) none 0px;
-}/*#DIV_9:after*/
-
-#DIV_9:before {
-    box-sizing: border-box;
-    color: rgb(126, 135, 143);
-    display: table;
-    width: 1px;
-    perspective-origin: 0.5px 0px;
-    transform-origin: 0.5px 0px;
-    content: ' ';
-    border: 0px none rgb(126, 135, 143);
-    font: normal normal 300 normal 16px/22.8571434020996px Raleway, Helvetica, Arial, sans-serif;
-    outline: rgb(126, 135, 143) none 0px;
-}/*#DIV_9:before*/
 
 #DIV_10 {
     box-sizing: border-box;
@@ -211,7 +160,7 @@
     padding: 0px 15px;
 }/*#DIV_12*/
 
-#DIV_13 {
+#about_info {
     box-sizing: border-box;
     color: rgb(126, 135, 143);
     height: 335px;
@@ -223,7 +172,7 @@
     outline: rgb(126, 135, 143) none 0px;
 }/*#DIV_13*/
 
-#DIV_14 {
+#info_title {
     box-sizing: border-box;
     color: rgb(126, 135, 143);
     float: left;
@@ -233,8 +182,10 @@
     transform-origin: 36.109375px 87.5px;
     border: 0px none rgb(126, 135, 143);
     font: normal normal bold normal 16px/22.8571434020996px Raleway, Helvetica, Arial, sans-serif;
+    font-weight: bold;
     margin: 0px 20px 0px 0px;
     outline: rgb(126, 135, 143) none 0px;
+    text-align: left;
 }/*#DIV_14*/
 
 #P_15, #P_16, #P_18 {
@@ -263,7 +214,7 @@
     outline: rgb(126, 134, 142) none 0px;
 }/*#P_17, #P_19*/
 
-#DIV_20 {
+#info_details {
     box-sizing: border-box;
     color: rgb(126, 135, 143);
     height: 190px;
@@ -272,10 +223,11 @@
     transform-origin: 180px 95px;
     border: 0px none rgb(126, 135, 143);
     font: normal normal 300 normal 16px/22.8571434020996px Raleway, Helvetica, Arial, sans-serif;
+    font-weight: 300;
     outline: rgb(126, 135, 143) none 0px;
 }/*#DIV_20*/
 
-#P_21, #P_22, #P_24 {
+#info_details p{
     box-sizing: border-box;
     color: rgb(126, 134, 142);
     height: 25px;
@@ -283,36 +235,10 @@
     perspective-origin: 180px 12.5px;
     transform-origin: 180px 12.5px;
     border: 0px none rgb(126, 134, 142);
-    font: normal normal 300 normal 16px/25px Raleway, Helvetica, Arial, sans-serif;
     margin: 0px 0px 10px;
     outline: rgb(126, 134, 142) none 0px;
-}/*#P_21, #P_22, #P_24*/
-
-#P_23 {
-    box-sizing: border-box;
-    color: rgb(126, 134, 142);
-    height: 25px;
-    width: 360px;
-    perspective-origin: 180px 12.5px;
-    transform-origin: 180px 12.5px;
-    border: 0px none rgb(126, 134, 142);
-    font: normal normal 300 normal 16px/25px Raleway, Helvetica, Arial, sans-serif;
-    margin: 0px 0px 10px;
-    outline: rgb(126, 134, 142) none 0px;
-}/*#P_23*/
-
-#P_25 {
-    box-sizing: border-box;
-    color: rgb(126, 134, 142);
-    height: 50px;
-    width: 360px;
-    perspective-origin: 180px 25px;
-    transform-origin: 180px 25px;
-    border: 0px none rgb(126, 134, 142);
-    font: normal normal 300 normal 16px/25px Raleway, Helvetica, Arial, sans-serif;
-    margin: 0px 0px 10px;
-    outline: rgb(126, 134, 142) none 0px;
-}/*#P_25*/
+    text-align: left;
+}
 
 #BR_26 {
     box-sizing: border-box;
@@ -331,6 +257,9 @@
     transform-origin: 180px 17.5px;
     border: 0px none rgb(44, 62, 80);
     font: normal normal 300 normal 30px/25px Arizonia, cursive;
+    font-family: Arizonia, cursive;
+    font-weight: 300;
+    font-size: 30px;
     margin: 30px 0px;
     outline: rgb(44, 62, 80) none 0px;
     padding: 0px 0px 10px;
@@ -383,7 +312,6 @@
     speak: none;
     text-align: center;
     white-space: nowrap;
-    content: '';
     border: 0px none rgb(255, 255, 255);
     font: normal normal normal normal 16px/16px metrofontpack;
     outline: rgb(255, 255, 255) none 0px;
@@ -437,11 +365,12 @@
     perspective-origin: 180px 12.5px;
     transform-origin: 180px 12.5px;
     border: 0px none rgb(126, 134, 142);
-    font: normal normal bold normal 20px/20px Raleway, Helvetica, Arial, sans-serif;
+    font: 20px/20px Raleway, Helvetica, Arial, sans-serif;
+    font-size: 20px;
     margin: 10px 0px 20px;
     outline: rgb(126, 134, 142) none 0px;
     padding: 0px 0px 5px;
-}/*#H4_33*/
+}
 
 #DIV_34 {
     box-sizing: border-box;
@@ -513,20 +442,19 @@
     color: rgb(126, 134, 142);
     speak: none;
     text-align: center;
-    content: '';
     border: 0px none rgb(126, 134, 142);
     font: normal normal normal normal 30px/30px metrofontpack;
     outline: rgb(126, 134, 142) none 0px;
 }/*#I_38:before*/
 
-#BR_39, #SPAN_40, #BR_44, #BR_49, #BR_54, #BR_59, #BR_64, #BR_69, #BR_74 {
+#br_hobbies {
     box-sizing: border-box;
     color: rgb(126, 134, 142);
     text-align: center;
     border: 0px none rgb(126, 134, 142);
     font: normal normal 500 normal 16px/25px Raleway, Helvetica, Arial, sans-serif;
     outline: rgb(126, 134, 142) none 0px;
-}/*#BR_39, #SPAN_40, #BR_44, #BR_49, #BR_54, #BR_59, #BR_64, #BR_69, #BR_74*/
+}
 
 #I_43 {
     box-sizing: border-box;
@@ -543,13 +471,12 @@
     color: rgb(126, 134, 142);
     speak: none;
     text-align: center;
-    content: '';
     border: 0px none rgb(126, 134, 142);
     font: normal normal normal normal 30px/30px metrofontpack;
     outline: rgb(126, 134, 142) none 0px;
 }/*#I_43:before*/
 
-#SPAN_45, #SPAN_50, #SPAN_55, #SPAN_60, #SPAN_65, #SPAN_70, #SPAN_75 {
+.span_hobbies {
     box-sizing: border-box;
     color: rgb(126, 134, 142);
     text-align: center;
@@ -573,7 +500,6 @@
     color: rgb(126, 134, 142);
     speak: none;
     text-align: center;
-    content: '';
     border: 0px none rgb(126, 134, 142);
     font: normal normal normal normal 30px/30px metrofontpack;
     outline: rgb(126, 134, 142) none 0px;
@@ -594,7 +520,6 @@
     color: rgb(126, 134, 142);
     speak: none;
     text-align: center;
-    content: '';
     border: 0px none rgb(126, 134, 142);
     font: normal normal normal normal 30px/30px metrofontpack;
     outline: rgb(126, 134, 142) none 0px;
@@ -615,7 +540,6 @@
     color: rgb(126, 134, 142);
     speak: none;
     text-align: center;
-    content: '';
     border: 0px none rgb(126, 134, 142);
     font: normal normal normal normal 30px/30px metrofontpack;
     outline: rgb(126, 134, 142) none 0px;
@@ -636,7 +560,6 @@
     color: rgb(126, 134, 142);
     speak: none;
     text-align: center;
-    content: '';
     border: 0px none rgb(126, 134, 142);
     font: normal normal normal normal 30px/30px metrofontpack;
     outline: rgb(126, 134, 142) none 0px;
@@ -657,7 +580,6 @@
     color: rgb(126, 134, 142);
     speak: none;
     text-align: center;
-    content: '';
     border: 0px none rgb(126, 134, 142);
     font: normal normal normal normal 30px/30px metrofontpack;
     outline: rgb(126, 134, 142) none 0px;
@@ -678,7 +600,6 @@
     color: rgb(126, 134, 142);
     speak: none;
     text-align: center;
-    content: '';
     border: 0px none rgb(126, 134, 142);
     font: normal normal normal normal 30px/30px metrofontpack;
     outline: rgb(126, 134, 142) none 0px;

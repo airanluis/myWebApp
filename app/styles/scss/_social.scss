@@ -32,10 +32,10 @@
 
 .social_link {
     box-sizing: border-box;
-    color: rgb(255, 255, 255);
+    color: rgb(210, 210, 210);
     display: block;
     height: 38px;
-    opacity: 0.600000023841858;
+    opacity: 0.8;
     text-align: center;
     text-decoration: none;
     width: 38px;
@@ -62,11 +62,12 @@
 
 .social_link {
     &:hover {
-        color: cyan !important;
+        color: white !important;
         height: 40px;
         width: 40px;
     }
     &:focus {
-        color: cyan !important;
+        color: white !important;
+        outline: none;
     }
 }
