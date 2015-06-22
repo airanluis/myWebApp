@@ -1,0 +1,9 @@
+{
+	"app.main.title": "Vámonos de copas",
+    "app.main.subtitle": "Encuentra las mejores copas a tu alrededor",
+    "app.navbar.home": "Principal",
+    "app.navbar.places": "Locales",
+    "app.navbar.signup": "Regístrate",
+    "app.navbar.login": "Inicia sesión",
+    "directives.language-select.Language": "Español"
+}

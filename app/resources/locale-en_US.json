@@ -1,0 +1,9 @@
+{
+	"app.main.title": "Drinks around you",
+    "app.main.subtitle": "Find better drinks around you",
+    "app.navbar.home": "Home",
+    "app.navbar.places": "Places",
+    "app.navbar.signup": "Register",
+    "app.navbar.login": "Login",
+    "directives.language-select.Language": "English"
+}
